@@ -1,3 +1,11 @@
-"scripts": {
-  "deploy": "node index.js"
+{
+  "whatsappApiSettings": {
+    "apiKey": "YOUR_WHATSAPP_API_KEY",
+    "apiSecret": "YOUR_WHATSAPP_API_SECRET",
+    "businessPhoneNumberId": "08173606894"
+  },
+  "botSettings": {
+    "greetingMessage": "Hello! Welcome to our WhatsApp bot.",
+    "defaultResponse": "Sorry, I didn't understand that. Please try again."
+  }
 }
